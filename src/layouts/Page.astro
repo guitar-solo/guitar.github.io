@@ -1,0 +1,19 @@
+---
+import Base from "./Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import MdiCalendarMonthOutline from '~icons/mdi/calendar-month-outline'
+import { format } from "date-fns";
+const { frontmatter } = Astro.props;
+---
+
+<Base>
+    <Header />
+    <div class="w-3/5 mx-auto main">
+        <div class="text-4xl pt-4 pb-4 post title">{frontmatter.title}</div>
+        <div class="text-lg pb-2">
+            <slot />
+        </div>
+    </div>
+    <Footer />
+</Base>

@@ -1,0 +1,159 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+	--color-solo-snow: #f8f5f5;
+	--color-solo-charcoal: #4c4b4b;
+	--color-solo-pacific-cyan: #4f91a0;
+	--color-solo-spicy-paprika: #ce5b31;
+	--color-solo-camel: #b2945b;
+	/* MINOR ACCENTS */
+	--color-solo-silver: #6c6c6c;
+}
+
+/* ---------- TABLE TO CONTENTS ----------
+ 1. SITE
+ 2. FONTS
+ 3. LANDING PAGE
+-----------------------------------------*/
+
+
+/* ---------- SITE ---------- */
+html {
+	height: 100%;
+}
+
+body {
+	background-color: var(--color-solo-snow);
+	color: var(--color-solo-charcoal);
+	height: 100%;
+}
+
+a {
+	color: var(--color-solo-pacific-cyan);
+	&:hover {
+		text-decoration: underline;
+		text-decoration-style: dotted;
+	}
+}
+
+img {
+	box-shadow: 3px 11px 71px -3px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 3px 11px 71px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 11px 71px -3px rgba(0,0,0,0.75);
+	margin: 1rem 0rem 1rem 0rem;
+}
+
+p {
+	font-size: var(--text-xl);
+	margin-bottom: 1em;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	th, td {
+		padding: 0.5rem 1rem;
+	}
+	tr:not(:last-child) {
+		border-bottom: 1px solid #ddd;
+	}
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.fw-200 {
+	font-weight: 200;
+}
+
+/* ---------- FONTS ---------- */
+.font-hyperlegible {
+	font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.font-playfair {
+	font-family: 'Playfair Display', serif;
+}
+
+.custom-orbitron {
+	font-family: "Orbitron";
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+	color: var(--color-solo-charcoal);
+}
+
+/* ---------- LANDING PAGE ---------- */
+.landing {
+	&.background {
+		background: linear-gradient(
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.6)
+		),
+		url('/background.gif');
+		background-size: cover;
+	}
+	&.title {
+		background-image: linear-gradient(-180deg, oklch(0.59 0 0 / 1), oklch(0.89 0.01 0 / 1));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
+		font-family: 'Orbitron';
+	}
+	&.description {
+		font-family: 'Playfair Display';
+	}
+	&.icons a {
+		color: var(--text-solo-silver);
+		transform: translateX(-0.1em);
+		&:hover {
+			color: var(--color-solo-spicy-paprika);
+			transition: color 0.25s;
+		}
+	}
+}
+
+/* ---------- POSTS ---------- */
+.post {
+	color: var(--color-solo-charcoal);
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	&.title {
+		font-family: 'Orbitron';
+		color: var(--color-solo-spicy-paprika);
+	}
+	&.date {
+	}
+	&.description {}
+}
+
+/* ---------- INDICES ---------- */
+.index {
+	&.heading {
+		color: var(--color-solo-charcoal);
+		font-size: 3rem;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1rem;
+	}
+}
+
+/* ---------- TAGS ---------- */
+.tag {
+	& > a {
+		font-weight: 700;
+		color: var(--color-solo-pacific-cyan);
+	}
+	&.heading {
+		color: var(--color-solo-charcoal);
+	}
+}

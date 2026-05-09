@@ -1,0 +1,30 @@
+{
+  "name": "guitar.github.io",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.13",
+    "@astrojs/rss": "^4.0.15",
+    "@astrojs/sitemap": "^3.7.0",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/simple-icons": "^1.2.68",
+    "@tailwindcss/vite": "^4.1.18",
+    "astro": "^5.16.16",
+    "daisyui": "^5.5.14",
+    "date-fns": "^4.1.0",
+    "sharp": "^0.34.3",
+    "tailwindcss": "^4.1.18",
+    "unplugin-fonts": "^1.4.0",
+    "unplugin-icons": "^23.0.1"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.2.10",
+    "@tailwindcss/typography": "^0.5.19"
+  }
+}

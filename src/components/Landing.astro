@@ -1,0 +1,19 @@
+---
+import MdiGithub from '~icons/mdi/github'
+import MdiLocationEnter from '~icons/mdi/location-enter'
+import { SITE_DESCRIPTION, SITE_TITLE, SITE_AUTHOR } from '../consts';
+---
+
+<div class="hero min-h-screen landing background">
+	<div class="hero-content text-center">
+		<div class="text-solo-silver">
+			<div class="text-6xl font-bold uppercase landing title">{ SITE_TITLE }</div>
+			<div class="text-4xl py-1 font-thin landing description">{ SITE_DESCRIPTION }</div>
+			<div class="landing icons flex justify-center my-3">
+				<a href="/notebooks">
+					<div class="text-4xl"><MdiLocationEnter /></div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
