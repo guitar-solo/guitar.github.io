@@ -26,7 +26,6 @@ html {
 body {
 	background-color: var(--color-solo-snow);
 	color: var(--color-solo-charcoal);
-	height: 100%;
 }
 
 a {
