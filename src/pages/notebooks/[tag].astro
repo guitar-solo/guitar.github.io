@@ -30,7 +30,9 @@ const { posts } = Astro.props;
                     url={post.url}
                     date={post.frontmatter.pubdate}
                     description={post.frontmatter.description}
-                    title={post.frontmatter.title} />
+                    title={post.frontmatter.title}
+                    tags={post.frontmatter.tags}
+                />
             )
         }
     </div>
