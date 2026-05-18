@@ -5,7 +5,10 @@ import Footer from "../../components/Footer.astro";
 import BlogPost from "../../components/BlogPost.astro";
 const allPosts = Object.values(
     import.meta.glob("../inspiration/*.md", { eager: true })
-);
+    ).sort((a: any, b: any) =>
+        new Date(b.frontmatter.pubdate).getTime() -
+        new Date(a.frontmatter.pubdate).getTime()
+    );
 ---
 <Base>
     <Header />

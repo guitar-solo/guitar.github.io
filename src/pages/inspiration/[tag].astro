@@ -4,7 +4,12 @@ import InspirationPost from '../../components/InspirationPost.astro';
 import Header from "../../components/Header.astro";
 
 export async function getStaticPaths() {
-    const allPosts = Object.values(import.meta.glob('../inspiration/*.md', { eager: true }));
+    const allPosts = Object.values(
+        import.meta.glob('../inspiration/*.md', { eager: true }
+        )).sort((a: any, b: any) =>
+        new Date(b.frontmatter.pubdate).getTime() -
+        new Date(a.frontmatter.pubdate).getTime()
+    );
 
     const uniqueTags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
 

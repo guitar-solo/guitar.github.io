@@ -4,8 +4,11 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import NotebookPost from "../../components/NotebookPost.astro";
 const allPosts = Object.values(
-    import.meta.glob("../notebooks/*.md", { eager: true })
-);
+    import.meta.glob("../notebooks/*.md", { eager: true }
+    )).sort((a: any, b: any) =>
+        new Date(b.frontmatter.pubdate).getTime() -
+        new Date(a.frontmatter.pubdate).getTime()
+    );
 ---
 <Base>
     <Header />
