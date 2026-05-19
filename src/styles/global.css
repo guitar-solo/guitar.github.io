@@ -28,6 +28,16 @@ body {
 	color: var(--color-solo-charcoal);
 }
 
+h1 {
+	font-size: var(--text-4xl);
+	font-family: 'Orbitron';
+	color: var(--color-solo-spicy-paprika);
+}
+
+h2 {
+	font-size: var(--text-3xl);
+}
+
 a {
 	color: var(--color-solo-pacific-cyan);
 	&:hover {
@@ -35,8 +45,6 @@ a {
 		text-decoration-style: dotted;
 	}
 }
-
-
 
 .tag > a {
 	padding: .25em;
