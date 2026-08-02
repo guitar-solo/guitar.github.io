@@ -13,7 +13,7 @@ are the features that attracted me to the pedal. What's kept me around this long
 consistently full-bodied sounds produced by the circuitry.
 
 <div class="d-flex justify-content-center fw-200 mb-5">
-    <img src="tube-king-back.jpg" alt="Tube King TK999, Made in Japan" />
+    <img src="/notebooks/tube-king-back.jpg" alt="Tube King TK999, Made in Japan" />
 </div>
 
 The "Made in Japan" (MIJ) version was manufactured between 1994 and 1995 before Ibanez moved production to the United States.
@@ -22,7 +22,7 @@ circuit has a switchable on/off control and a variable threshold when enabled. W
 reduction system can heavily affect playability at higher settings. 'Just enough' is the magic strategy.
 
 <div class="d-flex justify-content-center fw-200 mb-5">
-    <img src="tube-king-rear.jpg" alt="Tube King TK999, Made in Japan" />
+    <img src="/notebooks/tube-king-rear.jpg" alt="Tube King TK999, Made in Japan" />
 </div>
 
 The interior casing has a tendency to rust. I've owned two of these pedals over my lifetime and both have succumbed to 
@@ -32,10 +32,10 @@ glossy, durable, and metallic finish. It wonderfully freshens up the pedal.
 
 <div class="row d-flex">
     <div class="col-6-md">
-        <img src="tube-king-front.jpg" alt="Tube King TK999, Made in Japan" />
+        <img src="/notebooks/tube-king-front.jpg" alt="Tube King TK999, Made in Japan" />
     </div>
     <div class="col-6-md">
-        <img src="tube-king-open.jpg" alt="Tube King TK999, Made in Japan" />
+        <img src="/notebooks/tube-king-open.jpg" alt="Tube King TK999, Made in Japan" />
     </div>
 </div>
 
@@ -59,7 +59,7 @@ fluid, dynamic, and responsive to the touch. Sensitivity is king. I've heard som
 | Power  | EL84 / 6BQ5    | Bugera      | Amplification Factor: 100    |
 
 <div class="d-flex justify-content-center fw-200 mb-5">
-    <img src="mesa-boogie-tube-packaging.jpg" alt="Tube King TK999, Made in Japan" />
+    <img src="/notebooks/mesa-boogie-tube-packaging.jpg" alt="Tube King TK999, Made in Japan" />
 </div>
 
 The TK999 also features an active 3-band EQ: Bass, Mid, and Treble.
